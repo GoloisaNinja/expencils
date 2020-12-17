@@ -2878,11 +2878,6 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-exenv@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.0.tgz#3835f127abf075bfe082d0aed4484057c78e3c89"
-  integrity sha1-ODXxJ6vwdb/ggtCu1EhAV8eOPIk=
-
 expand-brackets@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-0.1.5.tgz#df07284e342a807cd733ac5af72411e581d1177b"
@@ -6443,11 +6438,6 @@ react-dates@12.7.0:
     react-moment-proptypes "^1.5.0"
     react-portal "^3.1.0"
 
-react-dom-factories@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
-  integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
-
 react-dom@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
@@ -6469,15 +6459,6 @@ react-list@^0.8.13:
   integrity sha512-LSxfvdwB9Ip+E+8NBtLPW2pcIngzuV0rSoH9nMt9C2lFjZEbnoBY/ib/Zx121jPgFgg3xYkMlMXSzx5gaiP5ig==
   dependencies:
     prop-types "15"
-
-react-modal@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-2.2.2.tgz#4bbf98bc506e61c446c9f57329c7a488ea7d504b"
-  integrity sha512-tdgyEyfbyfzDUj40XtWldAQe7e+yhJDUtVSlsQ9AQCGifzWck6v1XTtIVGViVftOsEA3cBWCZCjF3rq6FPJzMg==
-  dependencies:
-    exenv "1.2.0"
-    prop-types "^15.5.10"
-    react-dom-factories "^1.0.0"
 
 react-moment-proptypes@^1.5.0:
   version "1.7.0"
@@ -7929,11 +7910,6 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
-
-uuid@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
-  integrity sha512-DIWtzUkw04M4k3bf1IcpS2tngXEL26YUD2M0tMDUpnUrz2hgzUBlD55a4FjdLGPvfHxS6uluGWvaVEqgBcVa+g==
 
 uuid@^2.0.2:
   version "2.0.3"

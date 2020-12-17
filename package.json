@@ -1,5 +1,5 @@
 {
-  "name": "expensify",
+  "name": "expencils",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jack Collins",
@@ -37,7 +37,6 @@
     "react-date-range": "^1.1.3",
     "react-dates": "12.7.0",
     "react-dom": "^16.13.1",
-    "react-modal": "2.2.2",
     "react-redux": "5.0.5",
     "react-router": "^5.2.0",
     "react-router-dom": "4.2.2",
@@ -46,7 +45,6 @@
     "redux-thunk": "^2.3.0",
     "sass-loader": "^6.0.6",
     "style-loader": "0.18.2",
-    "uuid": "3.1.0",
     "webpack": "^3.1.0",
     "webpack-dev-server": "2.5.1"
   },

@@ -1,0 +1,31 @@
+.button {
+  background: $google-blue;
+  border: none;
+  border-bottom: 2px solid darken($google-blue, 5%);
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+.button--link {
+  background: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+.button--pencils {
+  background: #f4b400;
+  border-bottom: 2px solid darken(#f4b400, 5%);
+  text-align: left;
+  @media (min-width: $desktop-breakpoint) {
+    margin-left: 1rem;
+  }
+}
+.button--remove {
+  background: #db4437;
+  border-bottom: 2px solid darken(#db4437, 5%);
+}

@@ -1,0 +1,28 @@
+.page-header {
+  background: #f7f7f7;
+  padding: $l-size 0 $s-size 0;
+  margin-bottom: $l-size;
+}
+.page-header__actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: $m-size;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
+}
+
+.page-header__title {
+  font-weight: 300;
+  span {
+    font-weight: 700;
+  }
+}
+
+.page-header__pencils {
+  font-weight: 300;
+  font-size: 2rem;
+  span {
+    font-weight: 700;
+  }
+}

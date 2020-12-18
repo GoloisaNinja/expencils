@@ -18,6 +18,12 @@
   }
 }
 
+.input--three {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 .input-group__input {
   font-size: 1.7rem;
   font-weight: 300;

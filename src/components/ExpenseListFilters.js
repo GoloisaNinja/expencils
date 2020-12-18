@@ -39,6 +39,7 @@ const ExpenseListFilters = ({
     <div className='content-container'>
       <div className='input-group'>
         <div className='input-group__item'>
+          <label>Select a Date Range</label>
           <DateRange
             editableDateInputs={true}
             dateDisplayFormat={'MM/dd/yyyy'}

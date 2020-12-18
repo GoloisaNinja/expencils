@@ -11,10 +11,17 @@
   background: fade-out($color: white, $amount: 0.15);
   border-radius: 3px;
   text-align: center;
-  width: 25rem;
+  width: 32rem;
   padding: $l-size $m-size;
 }
 .box-layout__title {
   margin: 0 0 $m-size 0;
   line-height: 1;
+}
+.box-layout__image {
+  width: 4rem;
+  height: 4rem;
+}
+.box-layout__text {
+  margin-bottom: 1rem;
 }

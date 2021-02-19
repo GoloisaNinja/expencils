@@ -9,7 +9,7 @@ import {
 
 // FILTERS REDUCER
 const today = new Date();
-console.log(today);
+
 const initialState = {
   text: '',
   sortBy: 'date',

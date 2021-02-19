@@ -11,7 +11,7 @@ import {
   setStartDate,
   setEndDate,
 } from '../actions/filters';
-import { startOfMonth, endOfMonth } from 'date-fns/esm';
+import { startOfMonth, endOfMonth, startOfDay, endOfDay } from 'date-fns/esm';
 
 const ExpenseListFilters = ({
   filters,
@@ -23,15 +23,17 @@ const ExpenseListFilters = ({
 }) => {
   const [range, setRange] = useState([
     {
-      startDate: startOfMonth(new Date()),
-      endDate: endOfMonth(new Date()),
+      startDate: filters.startDate
+        ? filters.startDate
+        : startOfMonth(new Date()),
+      endDate: filters.endDate ? filters.endDate : endOfMonth(new Date()),
       key: 'selection',
     },
   ]);
   const handleChange = (e) => {
     setRange([e.selection]);
-    const startDate = e.selection.startDate;
-    const endDate = e.selection.endDate;
+    const startDate = startOfDay(e.selection.startDate);
+    const endDate = endOfDay(e.selection.endDate);
     setStartDate(startDate);
     setEndDate(endDate);
   };
